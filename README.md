@@ -9,4 +9,4 @@
 >- Lexicon Based Approach 
 >- Machine Learning Approach  
 
-> In the notebooks of this repo we will address the **machine learning approach**
+→ In the **notebooks** of this **repo** we will address the **machine learning approach**
