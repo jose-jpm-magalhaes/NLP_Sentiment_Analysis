@@ -20,3 +20,7 @@
 > - For both, BoW and TF-IDF, each word is captured in a **standalone** manner, thus the **local context (surounding words) in which it occurs is not captured**, therefore they both **don't consider the semantic relation between words**.
 
 → **Context** can be seen in **two different perspectives that we will address later on**.
+
+**2 - Word2Vec and Glove**
+> - Word2vec is a two-layer neural net that processes text by vectorizing words. Its input is a text corpus and its output is a set of vectors: feature vectors that represent words in that corpus.
+> - Word2Vec considers neighboring words to capture the local context of a word, while at the same time reducing the size of the data. 
