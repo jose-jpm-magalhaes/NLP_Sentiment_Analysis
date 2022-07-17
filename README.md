@@ -24,3 +24,5 @@
 **2 - Word2Vec and Glove**
 > - Word2vec is a two-layer neural net that processes text by vectorizing words. Its input is a text corpus and its output is a set of vectors: feature vectors that represent words in that corpus.
 > - Word2Vec considers neighboring words to capture the local context of a word, while at the same time reducing the size of the data. 
+> - 
+> - GloVe **extends** the work of Word2Vec to capture **global** contextual information in a text corpus by calculating a global word-word co-occurrence matrix. Word2Vec, as mentined above, only captures the local context of words, during training, it only considers neighboring words to capture the context. GloVe considers the entire corpus and creates a large matrix that can capture the co-occurrence of words within the entire corpus.
