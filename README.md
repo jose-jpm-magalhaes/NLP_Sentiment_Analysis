@@ -35,3 +35,9 @@
 > - Word2vec and Glove **do not consider word order in their training**, while BERT **takes into account word order (BERT uses Transformer - an attention based model with positional encodings to represent word positions)**.
 >     - For instance, for the following sentence "He went to the prison **cell** with his **cell** phone to extract blood **cell** samples from inmates", BERT would **generate three different vectors for cell**. The first 'cell' (**prison cell case**)  would be closer to words like incarceration, crime etc., whereas the second 'cell' (**phone case**) would be closer to words like iPhone, android, etc., the third 'cell' (**blood cell case**) would be closer to words such as platelets, hemoglobin, fluid, etc.
 > - A **practical implication of the difference mentioned above** is that we **can use Word2vec and Glove vectors directly for downstream tasks**, all we need is the vectors for the words, **there is no need for the model itself that was used to train these vectors**. However, in the case of BERT, since it is context dependent, **we need the model that was used to train the vectors even after training, since the models generate the vectors for a word based on context**.
+- - - 
+
+**4 - Doc2Vec**
+
+> - Doc2vec is trained on texts of variable length. 
+> - If **unique tags** are used for **creating tagged documents**, then the doc2vec model will generate a **document vector** for **each individual document/review** in the corpus; if **shared tags** are used for **documents within each class** (a common approach in sentimemt analysis) for **creating tagged documents**, then the doc2vec model will **generate a document vector for each class only**.
