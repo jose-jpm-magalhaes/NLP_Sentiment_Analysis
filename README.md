@@ -41,3 +41,4 @@
 
 > - Doc2vec is trained on texts of variable length. 
 > - If **unique tags** are used for **creating tagged documents**, then the doc2vec model will generate a **document vector** for **each individual document/review** in the corpus; if **shared tags** are used for **documents within each class** (a common approach in sentimemt analysis) for **creating tagged documents**, then the doc2vec model will **generate a document vector for each class only**.
+> - The **tags are just keys into the doc-vectors collection**, they **have no semantic meaning**.
