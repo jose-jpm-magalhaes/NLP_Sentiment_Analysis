@@ -42,3 +42,8 @@
 > - Doc2vec is trained on texts of variable length. 
 > - Doc2Vec is an **extension** of Word2Vec that **is applied to a document/review as a whole instead of individual words**. This model **aims to create a numerical representation of a document/review rather than a word** (Le & Mikolov, 2014). Doc2Vec **operates on the logic that the meaning of a word also depends on the document that it occurs in**.
 > - The **tags are just keys into the doc-vectors collection**, they **have no semantic meaning**.
+- - - 
+
+#### Tasks performed in the notebboks:
+- **Preprocessing**
+- 
