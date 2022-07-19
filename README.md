@@ -46,6 +46,12 @@
 
 #### Tasks performed in the notebooks - Key Points:
 
-> - **Preprocessing**
-> - **BoW** and **TF-IDF**: **establishing a benchmark** with **baseline classifier models**
->    - I used a **pipeline** to find out **which ngram_range performs better** with the **chosen classifiers**: **Logistic Regression** and **SVM**
+> 1 - **Preprocessing**
+>
+> 2 - **BoW and TF-IDF**
+>
+> 2.1 - **Establishing a benchmark** with **baseline classifier models**
+>
+> → I used a **pipeline** to find out **which ngram_range performed better** with the **chosen classifiers**: **Logistic Regression** and **SVM**
+>
+> 2.2 - **Evaluation using Logistic Regression and SVM classifiers with hyperparameter tuning**
