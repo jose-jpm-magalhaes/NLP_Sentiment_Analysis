@@ -43,6 +43,7 @@
 > - The **tags are just keys into the doc-vectors collection**, they **have no semantic meaning**.
 - - - 
 
+### Sentiment Analysis of the Restaurant Reviews from YELP Dataset
 #### Tasks performed in the notebooks - Key Points:
 
 > **1** - **Preprocessing**
