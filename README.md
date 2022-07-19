@@ -43,7 +43,7 @@
 > - The **tags are just keys into the doc-vectors collection**, they **have no semantic meaning**.
 - - - 
 
-### Sentiment Analysis of the Restaurant Reviews from YELP Dataset
+### `Sentiment Analysis of the Restaurant Reviews from YELP Dataset`
 
 &rarr; The two datasets (**review** and **business**) that we need from **YELP** dataset can be found [here](https://www.yelp.com/dataset)
 
