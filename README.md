@@ -53,7 +53,7 @@
 >
 > **2** - **BoW** and **TF-IDF**:
 >
-> 2.1 - **Establishing a benchmark** with **baseline classifier models**
+> 2.1 - **Establishing benchmarks**: **Logistic Regression** and **SVM classifier models** with **default parameters**
 >
 > → I used a **pipeline** to find out **which ngram_range performed better** with the **chosen classifiers**: **Logistic Regression** and **SVM**
 >
@@ -63,11 +63,11 @@
 >
 > → **Although our dataset is not very large**, I used Word2Vec **without using pretrained word embeddings** because I thought I **had enough data** to go for a **custom vectorization** as it **would be very specific to the context the corpus has**.
 >
-> 3.1 - Establishing a **benchmark with baseline classifier models**:
+> 3.1 - **Establishing benchmarks**: **Logistic Regression** and **SVM classifier models** with **default parameters**:
 >
-> 3.1.1 - **Evaluation using Logistic Regression baseline model**
+> 3.1.1 - **Evaluation using Logistic Regression**
 >
-> 3.1.2 - **Evaluation using SVM baseline model**
+> 3.1.2 - **Evaluation using SVM**
 >
 > 3.2 - **Hyperparameter tuning**
 >
