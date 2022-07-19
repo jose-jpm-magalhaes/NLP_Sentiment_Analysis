@@ -44,6 +44,8 @@
 > - The **tags are just keys into the doc-vectors collection**, they **have no semantic meaning**.
 - - - 
 
-#### Tasks performed in the notebboks:
-- **Preprocessing**
-- 
+#### Tasks performed in the notebooks - Key Points:
+
+> - **Preprocessing**
+> - **BoW** and **TF-IDF**: **establishing a benchmark** with **baseline classifier models**
+>    - I used a **pipeline** to find out **which ngram_range performs better** with the **chosen classifiers**: **Logistic Regression** and **SVM**
