@@ -45,9 +45,9 @@
 
 #### Tasks performed in the notebooks - Key Points:
 
-> 1 - **Preprocessing**
+> **1** - **Preprocessing**
 >
-> 2 - **BoW and TF-IDF**:
+> **2** - **BoW** and **TF-IDF**:
 >
 > 2.1 - **Establishing a benchmark** with **baseline classifier models**
 >
@@ -55,6 +55,19 @@
 >
 > 2.2 - **Evaluation using Logistic Regression and SVM classifiers with hyperparameter tuning**
 >
-> 3 - **Word2Vec**:
+> **3** - **Word2Vec**:
 >
 > → **Although our dataset is not very large**, I used Word2Vec **without using pretrained word embeddings** because I thought I **had enough data** to go for a **custom vectorization** as it **would be very specific to the context the corpus has**.
+>
+> 3.1 - Establishing a **benchmark with baseline classifier models**:
+>
+> 3.1.1 - **Evaluation using Logistic Regression baseline model**
+>
+> 3.1.2 - **Evaluation using SVM baseline model**
+>
+> 3.2 - **Hyperparameter tuning**
+>
+> 3.2.1 - Hyperparameter tunning for **Logistic Regression** Classifier
+>
+> 3.2.2 - Hyperparemeter tunning for **SVM** Classifier
+
