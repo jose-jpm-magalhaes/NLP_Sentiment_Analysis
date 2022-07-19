@@ -48,10 +48,14 @@
 
 > 1 - **Preprocessing**
 >
-> 2 - **BoW and TF-IDF**
+> 2 - **BoW and TF-IDF**:
 >
 > 2.1 - **Establishing a benchmark** with **baseline classifier models**
 >
 > → I used a **pipeline** to find out **which ngram_range performed better** with the **chosen classifiers**: **Logistic Regression** and **SVM**
 >
 > 2.2 - **Evaluation using Logistic Regression and SVM classifiers with hyperparameter tuning**
+>
+> 3 - **Word2Vec**:
+>
+> → **Although our dataset is not very large**, I used Word2Vec **without using pretrained word embeddings** because I thought I **had enough data** to go for a **custom vectorization** as it **would be very specific to the context the corpus has**.
