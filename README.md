@@ -45,8 +45,9 @@
 
 ### Sentiment Analysis of the Restaurant Reviews from YELP Dataset
 
-The two datasets (**review** and **business**) that we need from **YELP** dataset can be found [here]<a href=\"https://www.yelp.com/dataset\" target=\"_blank\">here</a>
-#### Tasks performed in the notebooks - Key Points:
+&rarr; The two datasets (**review** and **business**) that we need from **YELP** dataset can be found [here](https://www.yelp.com/dataset)
+
+- **Tasks performed in the notebooks - Key Points**:
 
 > **1** - **Preprocessing**
 >
