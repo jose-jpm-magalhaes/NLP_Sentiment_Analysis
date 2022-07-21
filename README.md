@@ -53,7 +53,7 @@
 >
 > **2** - **BoW** and **TF-IDF**:
 >
-> 2.1 - **Establishing benchmarks**: **Logistic Regression** and **SVM classifier models** with **default parameters**
+> 2.1 - **Establishing benchmarks**: **Logistic Regression** and **SVM models** with the **default parameters**
 >
 > → I used a **pipeline** to find out **which ngram_range performed better** with the **chosen classifiers**: **Logistic Regression** and **SVM**
 >
@@ -69,9 +69,9 @@
 >
 > 3.1.2 - **Evaluation using SVM**
 >
-> 3.2 - **Hyperparameter tuning**
+> 3.2 - **Hyperparameter tuning and evaluation**
 >
-> 3.2.1 - Hyperparameter tunning for **Logistic Regression** Classifier
+> 3.2.1 - Hyperparameter tunning for **Logistic Regression** and evaluation
 >
-> 3.2.2 - Hyperparemeter tunning for **SVM** Classifier
+> 3.2.2 - Hyperparemeter tunning for **SVM** and evaluation
 
