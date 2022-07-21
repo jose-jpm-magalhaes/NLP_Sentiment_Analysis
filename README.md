@@ -61,7 +61,7 @@
 >
 > **3** - **Word2Vec**:
 >
-> → **Although our dataset is not very large**, I used Word2Vec **without using pretrained word embeddings** because I thought I **had enough data** to go for a **custom vectorization** as it **would be very specific to the context the corpus has**.
+> → **Although our dataset is not very large**, I used Word2Vec **without using pretrained word embeddings** because I thought I **had enough data** to go for a **custom vectorization** as it **would be very specific to the context the corpus had**.
 >
 > 3.1 - **Establishing benchmarks**: **Logistic Regression** and **SVM classifier models** with **default parameters**:
 >
