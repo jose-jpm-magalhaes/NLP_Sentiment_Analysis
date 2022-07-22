@@ -69,7 +69,7 @@
 >
 > 3.1 - **Learning word embeddings on training data**
 >
-> 3.2 - **Create function to get the vectors that will feed the classifiers**
+> 3.2 - **Create a function to get the vectors that will feed the classifiers**
 >
 > 3.3 - **Establishing benchmarks**: **Logistic Regression** and **SVM classifier models** with **default parameters**:
 >
