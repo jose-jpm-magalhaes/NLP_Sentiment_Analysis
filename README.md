@@ -86,6 +86,67 @@
 > **4** - **Doc2Vec**:
 >
 >
-> **5** - **BERT** using **PyTorch** (in another notebook)
+> **5** - **BERT** using **PyTorch** (a **whole Colab** notebook)
+>
+> 5.1 - Preprocessing
 > 
+> 5.2 - Install **`transformers`**
+> 
+> 5.3 - Define the **pre-trained** model we are going to use: **`bert-base-uncased`**
+> 
+> 5.4 - Load the **BERT Tokenizer**
+> 
+> 5.5 - Decide on a **maximum sentence length**
+> 
+> 5.6 - **Split** the **dataset** into **train** (70 %), **validation** (15%) and **test** (15%) sets
+> 
+> 5.7 - **Convert to list each of the sets**
+> 
+> 5.8 - Create a **sequence of token ids** (input ids) for **each review**
+> 
+> 5.9 - **Padding** and **truncating**: **pad** and **truncate** our **sequences** so that they **all have the same length**
+> 
+> 5.10 - Create **attention masks**
+> 
+> 5.11 - **Convert all lists of inputs ids, labels and attention masks into torch tensors**
+> 
+> 5.12 - Create a **DataLoader** to **load** our **datasets**
+> 
+> 5.13 - **Build a sentiment classifier**: **`BertForSequenceClassification`**
+> 
+> 5.14 - **Instantiate** our model
+> 
+> 5.15 - **Move** our **model** to the **GPU**
+> 
+> 5.16 - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
