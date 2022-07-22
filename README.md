@@ -55,7 +55,7 @@
 >
 > 2.1 - Firstly, **read the cleaned dataset stored in the bucket after the preprocesssing phase**
 > 
-> 2.2 - Then, do the **train/test split keeping the two columns of interest and preserve the same proportions of examples in each class as observed in the original dataset**
+> 2.2 - Do the **train/test split keeping the two columns of interest and preserve the same proportions of examples in each class as observed in the original dataset**
 >
 > 2.3 - **Establishing benchmarks**: **Logistic Regression** and **SVM models** with the **default parameters**
 >
