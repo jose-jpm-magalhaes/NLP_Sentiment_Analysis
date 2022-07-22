@@ -85,9 +85,9 @@
 
 > **4** - **Doc2Vec**:
 
-> **5** - **BERT** using **PyTorch** (a **whole Colab** notebook)
+> **5** - **BERT** using **PyTorch** framework (a **whole Colab** notebook)
 >
-> 5.1 - Preprocessing
+> 5.1 - **Preprocessing**
 > 
 > 5.2 - Install **`transformers`**
 > 
@@ -130,16 +130,16 @@
 >     - Number of epochs: 2, 3 or 4
 >
 > We chose **16**, **3e-5** and **2**, respectively.
-
-
-
-
-
-
-
-
-
-
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
 
 
 
