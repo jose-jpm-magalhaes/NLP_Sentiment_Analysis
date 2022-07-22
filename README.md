@@ -109,7 +109,7 @@
 > 
 > 5.11 - **Convert all lists of inputs ids, labels and attention masks into torch tensors**
 > 
-> 5.12 - Create a **DataLoader** to **load** our **datasets**
+> 5.12 - Create a **`DataLoader`** to **load** our **datasets**
 > 
 > 5.13 - **Build a sentiment classifier**: **`BertForSequenceClassification`**
 > 
