@@ -49,29 +49,37 @@
 
 - **Tasks performed in the notebooks - Key Points**:
 
-> **1** - **Preprocessing**
+> **1** - **Preprocessing** (a whole notebook for this task)
 >
 > **2** - **BoW** and **TF-IDF**:
 >
-> 2.1 - **Establishing benchmarks**: **Logistic Regression** and **SVM models** with the **default parameters**
+> 2.1 - Firstly, **read the cleaned dataset stored in the bucket after the preprocesssing phase**
+> 
+> 2.2 - Then, do the **train/test split keeping the two columns of interest and preserve the same proportions of examples in each class as observed in the original dataset**
+>
+> 2.3 - **Establishing benchmarks**: **Logistic Regression** and **SVM models** with the **default parameters**
 >
 > → I used a **pipeline** to find out **which ngram_range performed better** with the **chosen classifiers**: **Logistic Regression** and **SVM**
 >
-> 2.2 - **Evaluation using Logistic Regression and SVM classifiers with hyperparameter tuning**
+> 2.4 - **Evaluation using Logistic Regression and SVM classifiers with hyperparameter tuning**
 >
 > **3** - **Word2Vec**:
 >
 > → **Although our dataset is not very large**, I used Word2Vec **without using pretrained word embeddings** because I thought I **had enough data** to go for a **custom vectorization** as it **would be very specific to the context the corpus had**.
 >
-> 3.1 - **Establishing benchmarks**: **Logistic Regression** and **SVM classifier models** with **default parameters**:
+> 3.1 - Learning word embeddings on training data
 >
-> 3.1.1 - **Evaluation using Logistic Regression**
+> 3.2 - Create function to get the vectors that will feed the classifiers
 >
-> 3.1.2 - **Evaluation using SVM**
+> 3.3 - **Establishing benchmarks**: **Logistic Regression** and **SVM classifier models** with **default parameters**:
 >
-> 3.2 - **Hyperparameter tuning and evaluation**
+> 3.3.1 - **Evaluation using Logistic Regression**
 >
-> 3.2.1 - Hyperparameter tunning for **Logistic Regression** and evaluation
+> 3.3.2 - **Evaluation using SVM**
 >
-> 3.2.2 - Hyperparemeter tunning for **SVM** and evaluation
+> 3.4 - **Hyperparameter tuning and evaluation**
+>
+> 3.4.1 - Hyperparameter tunning for **Logistic Regression** and evaluation
+>
+> 3.4.2 - Hyperparemeter tunning for **SVM** and evaluation
 
