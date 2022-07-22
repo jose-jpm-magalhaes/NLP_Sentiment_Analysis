@@ -117,9 +117,19 @@
 > 
 > 5.15 - **Move** our **model** to the **GPU**
 > 
-> 5.16 - 
-
-
+> 5.16 - **Optimizer, learning rate scheduler, loss function and number of epochs**
+>
+> **Notes**: 
+>
+> - To **fine-tune** our Bert classifier we need to create an **`optimizer`**. Considering the **original paper** on BERT, we will use **`AdamW`** optimizer because it **implements gradient bias correction** as well as **weight decay**. We will also use **linear scheduler with no warmup steps**.
+>
+> - The **authors** have some **recommendations** for **fine-tuning**:
+>
+>     - Batch size: 16, 32
+>     - Learning rate (Adam): 5e-5, 3e-5, 2e-5
+>     - Number of epochs: 2, 3 or 4
+>
+> We chose **16**, **3e-5** and **2**, respectively.
 
 
 
