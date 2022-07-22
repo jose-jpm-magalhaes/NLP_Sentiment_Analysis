@@ -131,11 +131,13 @@
 >
 > We chose **16**, **3e-5** and **2**, respectively.
 >
+> 5.17 - **Training** and **validation**
+> 
+> - **Note**: We can **store** the **training** and **validation loss** and **accuracy values** and then **plot** or **make a table** to **measure the performance** on **both** the **train** and **validation** sets **after the completion of each epoch** so we can see **more clearly** the **progress** of the **training loop**.
 >
+> 5.18 - **Predicting on test set**
 >
->
->
->
+> 5.19 - 
 >
 >
 >
