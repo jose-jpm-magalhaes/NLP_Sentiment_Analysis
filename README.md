@@ -59,7 +59,7 @@
 >
 > 2.3 - **Establishing benchmarks**: **Logistic Regression** and **SVM models** with the **default parameters**. **Evaluation**.
 >
-> - **Note**: I used a **pipeline** to find out **which ngram_range performed better** with the **chosen classifiers**: **Logistic Regression** and **SVM**
+> - **Note**: First I found out **which ngram_range performed better** with the **chosen classifiers**: **Logistic Regression** and **SVM**
 >
 > 2.4 - **Logistic Regression and SVM classifiers** with **hyperparameter tuning** (using **GridSeachCV**). **Evaluation**.
 
