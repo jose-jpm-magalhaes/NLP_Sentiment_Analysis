@@ -79,9 +79,9 @@
 >
 > 3.4 - **Hyperparameter tuning and evaluation**:
 >
-> 3.4.1 - Hyperparameter tunning using **GridSearchCV** for **Logistic Regression** and **evaluation**
+> 3.4.1 - **Hyperparameter tunning** using **GridSearchCV** for **Logistic Regression**. **Evaluation**.
 >
-> 3.4.2 - Hyperparemeter tunning using **GridSearchCV** for **SVM** and **evaluation**
+> 3.4.2 - **Hyperparemeter tunning** using **GridSearchCV** for **SVM**. **Evaluation**
 
 > **4** - **Doc2Vec**:
 
@@ -137,7 +137,18 @@
 >
 > 5.18 - **Predicting on test set**
 >
-> 5.19 - 
+> 5.19 - **Converting predictions to tensor**
+> 
+> 5.20 - **Applying softmax on predictions**
+> 
+> 5.21 - **Conversion to numpy arrays**
+> 
+> 5.22 - **Heatmap of confusion matrix for test data**
+> 
+> 5.23 - **Classification report**
+>
+> 5.24 - **Conclusions**
+
 >
 >
 >
