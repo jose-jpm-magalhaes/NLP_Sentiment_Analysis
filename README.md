@@ -61,7 +61,7 @@
 >
 > - **Note**: I used a **pipeline** to find out **which ngram_range performed better** with the **chosen classifiers**: **Logistic Regression** and **SVM**
 >
-> 2.4 - **Logistic Regression and SVM classifiers** with **hyperparameter tuning** (using **GridSeachCV**). **Evaluation**
+> 2.4 - **Logistic Regression and SVM classifiers** with **hyperparameter tuning** (using **GridSeachCV**). **Evaluation**.
 
 > **3** - **Word2Vec**:
 >
