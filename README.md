@@ -57,11 +57,11 @@
 > 
 > 2.2 - Do the **train/test split keeping the two columns of interest and preserve the same proportions of examples in each class as observed in the original dataset**
 >
-> 2.3 - **Establishing benchmarks**: **Logistic Regression** and **SVM models** with the **default parameters**
+> 2.3 - **Establishing benchmarks**: **Logistic Regression** and **SVM models** with the **default parameters**. **Evaluation**.
 >
 > - **Note**: I used a **pipeline** to find out **which ngram_range performed better** with the **chosen classifiers**: **Logistic Regression** and **SVM**
 >
-> 2.4 - **Evaluation using Logistic Regression and SVM classifiers with hyperparameter tuning**
+> 2.4 - **Logistic Regression and SVM classifiers with hyperparameter tuning using GridSeachCV**. **Evaluation**
 
 > **3** - **Word2Vec**:
 >
@@ -79,9 +79,9 @@
 >
 > 3.4 - **Hyperparameter tuning and evaluation**
 >
-> 3.4.1 - Hyperparameter tunning for **Logistic Regression** and evaluation
+> 3.4.1 - Hyperparameter tunning using **GridSearchCV** for **Logistic Regression** and **evaluation**
 >
-> 3.4.2 - Hyperparemeter tunning for **SVM** and evaluation
+> 3.4.2 - Hyperparemeter tunning using **GridSearchCV** for **SVM** and **evaluation**
 
 > **4** - **Doc2Vec**:
 
