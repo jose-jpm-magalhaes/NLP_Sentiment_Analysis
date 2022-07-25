@@ -77,7 +77,7 @@
 >
 > 3.3.2 - **Evaluation using SVM**
 >
-> 3.4 - **Hyperparameter tuning and evaluation**
+> 3.4 - **Hyperparameter tuning and evaluation**:
 >
 > 3.4.1 - Hyperparameter tunning using **GridSearchCV** for **Logistic Regression** and **evaluation**
 >
