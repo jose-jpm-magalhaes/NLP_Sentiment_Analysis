@@ -47,7 +47,7 @@
 
 &rarr; The two datasets (**review** and **business**) that we need from **YELP** dataset can be found [here](https://www.yelp.com/dataset)
 
-&rarr; You can learn how to create a user-managed notebook instance in Google Cloud Platform [here](https://cloud.google.com/vertex-ai/docs/workbench/user-managed/create-new)
+&rarr; You can learn how to **create a user-managed notebook instance in Google Cloud Platform** [here](https://cloud.google.com/vertex-ai/docs/workbench/user-managed/create-new)
 
 - **Tasks performed in the notebooks - Key Points**:
 
