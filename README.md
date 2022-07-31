@@ -59,9 +59,9 @@
 > 
 > 2.2 - Do the **train/test split keeping the two columns of interest and preserve the same proportions of examples in each class as observed in the original dataset**
 >
-> 2.3 - **Establishing benchmarks**: **Logistic Regression** and **SVM models** with the **default parameters**. **Evaluation**.
+> 2.3 - **Establishing benchmarks**: **Logistic Regression** and **SVM models** with the **default parameters** that will **serve** as **baseline models**. **Evaluation**.
 >
-> - **Note**: First I found out **which ngram_range performed better** with the **chosen classifiers**: **Logistic Regression** and **SVM**
+> - **Note**: First I found out for both **BoW** and **TF-IDF which ngram_range performed better** with the **chosen classifiers**: **Logistic Regression** and **SVM**
 >
 > 2.4 - **Logistic Regression and SVM classifiers** with **hyperparameter tuning** (using **GridSeachCV**). **Evaluation**.
 
