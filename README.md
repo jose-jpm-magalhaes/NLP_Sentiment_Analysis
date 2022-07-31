@@ -61,7 +61,7 @@
 >
 > 2.3 - **Establishing benchmarks**: **Logistic Regression** and **SVM models** with the **default parameters** that will **serve** as **baseline models**. **Evaluation**.
 >
-> - **Note**: Using **GridSearchCV** I found out for both **BoW** and **TF-IDF which ngram_range performed better** with the **chosen classifiers**: **Logistic Regression** and **SVM**
+> - **Note**: Using **GridSearchCV** I found out for both **BoW** and **TF-IDF** which **ngram_range** ((1, 1), (2, 2), (3, 3), (1, 2), (2, 3), (1, 3)) **performed better** with the **chosen classifiers**: **Logistic Regression** and **SVM**
 >
 > 2.4 - **Logistic Regression and SVM classifiers** with **hyperparameter tuning** (using **GridSeachCV**). **Evaluation**.
 
