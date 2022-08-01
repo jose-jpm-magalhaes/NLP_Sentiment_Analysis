@@ -87,7 +87,7 @@
 
 > **4** - **Doc2Vec**:
 
-> **5** - **BERT** using **PyTorch** framework (a **whole Colab** notebook)
+> **5** - **BERT** using **PyTorch** framework (a **whole Colab** notebook). For a reproducible and interactive preview &rarr; [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/josepaulosa/Data_Mining/blob/main/Data_Mining.ipynb)
 >
 > 5.1 - **Preprocessing**
 > 
