@@ -87,7 +87,7 @@
 
 > **4** - **Doc2Vec**:
 
-> **5** - **BERT** using **PyTorch** framework (a **whole Colab** notebook). For a reproducible preview &rarr; [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/josepaulosa/NLP_Sentiment_Analysis/blob/main/BERT.ipynb)
+> **5** - **BERT** using **PyTorch** framework (a **whole Colab** notebook). For an interactive preview &rarr; [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/josepaulosa/NLP_Sentiment_Analysis/blob/main/BERT.ipynb)
 >
 > 5.1 - **Preprocessing**
 > 
